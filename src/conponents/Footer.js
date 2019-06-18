@@ -1,8 +1,15 @@
-import React from "react";
+import React from 'react';
 
-const Footer = ({ title }) => (
+const Footer = ({ title, date }) => (
   <Footer>
-    <h1 className="text-center">{title}</h1>
+    <div className="container">
+      <div className="row">
+        <div className="col" />
+      </div>
+      <div className="footer-copyright">
+        <div className="container" />
+      </div>
+    </div>
   </Footer>
 );
 
